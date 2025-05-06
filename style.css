@@ -1,0 +1,83 @@
+
+/* Earthshaker Palette
+   wildflower: #ffc07c;
+   berrythorn: #ff6655;
+   bloom: #f7c59f;
+   sage: #6c8f6c;
+   red: #ff6655;
+   bark: #d68e5d;
+   pollen: #eabf6a;
+   leaf: #90b48f;
+   newbud: #acc196;
+   fernmist: #a3b18a;
+   moss: #7c8474;
+   deepsage: #809775;
+   sunlight: #e0d6c3;
+   lightsage: #c9d8b6;
+   mutedolive: #b5bfa1;
+   overlay_moss: #7c8474;
+   overlay_deepmoss: #585b5c;
+   overlay_barkshadow: #3a3938;
+   barkdark: #2c302c;
+   canopyshadow: #232220;
+   forestfloor: #1a1c1b;
+   deepforestfloor: #181816;
+   blacksoil: #121210;
+*/
+
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  min-height: 28px;
+}
+
+window#waybar {
+  background: #1a1c1b;
+  color: #ffc07c;
+  padding: 2px 6px;
+}
+
+#workspaces button {
+  padding: 0 10px;
+  margin: 0 3px;
+  background: transparent;
+  color: #c9d8b6;
+}
+
+#workspaces button.active {
+  background: #ff6655;
+  color: #1a1c1b;
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#temperature,
+#backlight {
+  padding: 0 12px;
+  margin: 0 5px;
+  background: #3a3938;
+  color: #ffc07c;
+}
+
+#tray,
+#submap {
+  padding: 0 10px;
+  margin: 0 5px;
+  background: #585b5c;
+  color: #e0d6c3;
+}
+
+#custom-power {
+  color: #ff6655;
+}
+
+tooltip {
+  background: #232220;
+  color: #e0d6c3;
+}
